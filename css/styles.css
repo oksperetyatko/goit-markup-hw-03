@@ -261,8 +261,8 @@
         margin: 0;
         margin-bottom: 50px;
     }
-    .container{
-        padding: 32px 16px ;
+    .container { 
+        padding: 32px 16px;
         border: 1px solid #e7e9fc;
     }
     .team .list {
@@ -401,11 +401,7 @@ margin-bottom: 16px;
     .gallery-card > .link {
         color: inherit;
     }
-    .gallery-card .text {
-        display: inline-block;
-        margin: 0;
-        max-width: 264px;
-    }
+   
     .info {
         padding: 32px 16px;
     }
