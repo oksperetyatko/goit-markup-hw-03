@@ -50,8 +50,9 @@
         margin-right: auto;
         margin-left: auto;
         width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
+        margin: 0;
+        padding: 0 15px;
+       
     }
     
     /* site header */
@@ -118,6 +119,7 @@
     .contacts.list {
         display: flex;
         align-items: center;
+        gap: 40px;
     }
     .contacts > .item:not(:last-child) {
         padding-left: 0px;
