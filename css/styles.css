@@ -48,8 +48,8 @@
         margin-right: auto;
         margin-left: auto;
         width: 1158px;
-        padding-left: 12px;
-        padding-right: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     
     /* site header */
@@ -153,6 +153,7 @@
         line-height: 1.07;
         letter-spacing: 0.02em;
         margin: 0;
+        max-width: 496px;
         padding-bottom: 48px;
     }
     
@@ -169,6 +170,8 @@
         line-height: 1.5;
         color: #ffffff;
         cursor: pointer;
+        display: block;
+        min-width: 169px;
     }
     
     .hero .btn:hover,
