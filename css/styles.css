@@ -350,6 +350,10 @@
     }
     .gallery 
     
+    .index{
+        display: inline-block;
+        margin-bottom: 16px;  
+    }
     
     /* gallery btn */
     .btn-gallery {
