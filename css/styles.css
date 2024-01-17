@@ -211,7 +211,7 @@ gap: 40px;
         display: flex;
     }
     
-    .features .item>.text {
+    .features .item.text {
         margin: 0;
         font-weight: 400;
         line-height: 1.5;
@@ -274,9 +274,7 @@ gap: 40px;
         margin: 0;
         margin-bottom: 72px;
     }
-    .portfolio .item{
-        calc((100% - 48px) / 3);
-    }
+  
   
     .team .list {
         display: flex;
