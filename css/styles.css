@@ -327,18 +327,54 @@
         display: block;
     }
     
+
+
+
+
+
+
+
+
+
     /* footer */
     .footer {
         background-color: var(--secondary-bg-color);
         padding: 100px 0;
     }
     
-    .address > .text {
-        margin: 0;
-        margin-top: 16px;
-        color: #E7E9FC;
-    }
-    
+.logo-web {
+  color: var(--color-iris);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.logo-studuo {
+  color: var(--color-cloud);
+}
+
+.footer__text {
+  color: var(--color-cloud);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 264px;
+}
+
+
+
+
+
+
+
+
+
+
     /* portfolio page */
     .portfolio {
         padding: 120px 0 120px 0;
