@@ -22,23 +22,11 @@
     /* list link */
     .link {
     text-decoration: none;
-    gap: 40px ;
     }
     .list {
-    list-style: none;
-    }
+    list-style: none;}
+   
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-     p,
-    ul {
-  margin: 0;
-  padding: 0;
-}
     .item {
 gap: 40px;
     }
@@ -81,6 +69,7 @@ gap: 40px;
     .header > .container {
         display: flex;
         justify-content: space-between;
+        gap: 40px;
     }
     
     /* logo */
