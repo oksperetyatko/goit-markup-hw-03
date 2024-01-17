@@ -28,7 +28,7 @@
     list-style: none;
     }
     .item {
-        
+
     }
     a {
   text-decoration: none;
@@ -58,8 +58,7 @@
     .container {
         width: 1158px;
         margin: 0;
-        padding-left: 15px;
-        padding-right: 15px;
+        
     }
     
     /* site header */
