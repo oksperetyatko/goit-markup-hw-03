@@ -1,4 +1,5 @@
 :root {
+
     --primary-bg-color: #ffffff;
     --secondary-bg-color: #2E2F42;
     --color-main-text: #2E2F42;
@@ -28,7 +29,16 @@
     padding: 0;
     margin: 0;
     }
-    
+    a {
+  text-decoration: none;
+  outline: none;
+ }
+
+ img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
     /* title */
     .title {
         font-family: 'Roboto', sans-serif;
@@ -377,32 +387,4 @@ display: inline-block;
 margin-bottom: 16px;
 
     }
-    /* gallery cards */
-    .gallery-card {
-        color: var(--color-secondary-text);
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        border: 1px solid #E7E9FC;
-    }
-    .gallery-card .title {
-        margin: 0;
-        margin-bottom: 8px;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        text-align: start;
-        color: var(--color-main-text);
-    }
-    .gallery-card img {
-        display: block;
-    }
-    .gallery-card > .link {
-        color: inherit;
-    }
    
-    .info {
-        padding: 32px 16px;
-    }
