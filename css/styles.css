@@ -55,9 +55,9 @@
     
     /* container */
     .container {
-        margin-right: auto;
-        margin-left: auto;
         width: 1158px;
+        margin: 0 auto;
+        padding: o auto;
           
     }
     
@@ -357,7 +357,6 @@
 .logo-studuo {
   color: var(--color-cloud);
 }
-
 .footer__text {
   color: var(--color-cloud);
   font-weight: 400;
