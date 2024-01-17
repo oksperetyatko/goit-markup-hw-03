@@ -342,22 +342,24 @@
         padding: 100px 0;
     }
     
-.logo-web {
-  color: var(--color-iris);
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  display: inline-block;
-  margin-bottom: 16px;
-}
+
 
 .logo-studuo {
   color: var(--color-cloud);
 }
-.footer__text {
+.index-foot {  color: var(--color-iris);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
+
+}
+.foot-text {
+ max-width: 264px
   color: var(--color-cloud);
   font-weight: 400;
   font-size: 16px;
