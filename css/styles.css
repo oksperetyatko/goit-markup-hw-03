@@ -1,5 +1,4 @@
 :root {
-
     --primary-bg-color: #ffffff;
     --secondary-bg-color: #2E2F42;
     --color-main-text: #2E2F42;
@@ -27,8 +26,9 @@
     }
     .list {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    }
+    .item {
+        
     }
     a {
   text-decoration: none;
@@ -57,9 +57,9 @@
     /* container */
     .container {
         width: 1158px;
-        margin: 0 auto;
-        padding: o auto;
-          
+        margin: 0;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     
     /* site header */
@@ -285,7 +285,7 @@
         background-color: var(--primary-bg-color);
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
         border-radius: 0px 0px 4px 4px;
-        flex-basis: calc((100% - 72px) / 4); 
+      
     }
     
     .list {
