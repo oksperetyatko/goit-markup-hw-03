@@ -274,12 +274,13 @@ gap: 40px;
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 48px;
+        width: calc((100% - 72px) / 4);
     }
     .team.item {
         padding: 32px 16px;
         border:1px solid #e7e9fc;
     }
-    .
+    
     .card:not(:last-child) {
         margin-right: 24px;
     }
@@ -341,7 +342,6 @@ gap: 40px;
     max-width: 264px ;
 
 }
-
     /* portfolio page */
     .portfolio {
         padding: 120px 0 120px 0;
@@ -383,10 +383,8 @@ gap: 40px;
     padding: 12px 24px;
     color: var(--accent);
     }
+
     .item .btn-gallery:hover,
     .item .btn-gallery:focus ;
-    color: #FFFFFF;
-    background: var(--accent-pressed-state);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border: none;
-}
+
+   
