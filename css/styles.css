@@ -64,6 +64,7 @@ img {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  padding: 32px 0 
 }
 
 /* site header */
@@ -267,6 +268,7 @@ margin-bottom: 72px
 }
   .img {
     display: block;
+ 
   }
   .content{
     padding: 32px 0 }
@@ -335,7 +337,15 @@ margin-bottom: 72px;
     border: 1px solid #e7e9fc;
 } 
 .title-portfolio {
-    margin-bottom: 8px;
+    margin-bottom: 72px;
+}
+.portfolio-text {
+    display: flex;
+    padding-bottom: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    text-align: center;
 }
 .item .btn-gallery:hover,
 .item .btn-gallery:focus {
