@@ -22,9 +22,11 @@
     /* list link */
     .link {
     text-decoration: none;
+    gap: 40px ;
     }
     .list {
-    list-style: none;}
+    list-style: none;
+}
    
 
     .item {
@@ -254,8 +256,9 @@ gap: 40px;
     }
   
   
-    .team .list {
+    .team .section-list {
         display: flex;
+        gap: 24px;
         justify-content: center;
     }
     
@@ -263,6 +266,7 @@ gap: 40px;
         background-color: var(--primary-bg-color);
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
         border-radius: 0px 0px 4px 4px;
+        width: calc((100% - 72px) / 4);
     }
     
     .list {
@@ -319,6 +323,9 @@ gap: 40px;
 
 .logo-studuo {
   color: var(--color-cloud);
+  display: inline-block;
+  margin-bottom: 16px;
+
 }
 .index-foot {  color: var(--color-iris);
     font-family: 'Raleway', sans-serif;
@@ -331,12 +338,8 @@ gap: 40px;
     margin-bottom: 16px;
 }
 .foot-text {
- max-width: 264px
-  color: var(--color-cloud);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  width: 264px;
+    max-width: 264px ;
+
 }
 
     /* portfolio page */
@@ -353,18 +356,18 @@ gap: 40px;
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 48px;
+        width: calc((100% - 48px) / 3);
     }
     .gallery .list:first-of-type {
         margin-bottom: 72px;
     }
     .portfolio .container{
-        padding: 32px 16px;
-        border:  solid #e7e9fc;
+    
         border-top: none;
         margin-bottom: 8px;
-        
+        padding: 32px 16px;
+        border:  solid #e7e9fc;
     }
-
 
     /* gallery btn */
     .btn-gallery {
@@ -381,9 +384,9 @@ gap: 40px;
     color: var(--accent);
     }
     .item .btn-gallery:hover,
-    .item .btn-gallery:focus {
+    .item .btn-gallery:focus ;
     color: #FFFFFF;
     background: var(--accent-pressed-state);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border: none;
- 
+}
