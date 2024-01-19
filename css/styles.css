@@ -64,7 +64,6 @@ img {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding: 32px 0 
 }
 
 /* site header */
@@ -302,7 +301,7 @@ img {
 .portfolio {
   padding: 120px 0 120px 0;
 }
-.title-portfolio{
+.title-portfolio-our{
 color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
 font-family: Roboto;
@@ -312,7 +311,7 @@ font-weight: 700;
 line-height: 40px; /* 111.111% */
 text-transform: capitalize;
 margin-bottom: 72px;
-margin-bottom: 72px;
+
 }
 .list-portfolio{
     display: flex;
@@ -330,6 +329,7 @@ margin-bottom: 72px;
     flex-shrink: 0;
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF); 
+    width: calc((100% - 48px) / 3);
 }
 
 .content {
@@ -337,7 +337,11 @@ margin-bottom: 72px;
     border: 1px solid #e7e9fc;
 } 
 .title-portfolio {
-    margin-bottom: 72px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 8px
 }
 .portfolio-text {
     display: flex;
